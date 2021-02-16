@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import imgaug as ia
 import imgaug.augmenters as iaa
 
-class dk_cycleGAN():
+class cycleGAN():
 
     def __init__(self, N_channels = 1, input_width = 128, input_height = 128, dataset_name = None):
 
